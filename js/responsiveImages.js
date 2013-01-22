@@ -1,0 +1,4 @@
+ResponsiveImages = function()
+{
+	
+};
