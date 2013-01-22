@@ -15,7 +15,22 @@
 <body>
     <div class="pageContainer">        
         <div class="image">
+            Image displayed below all the time <br />
+            <img src="http://placekitten.com/g/900/385" />
             
+            <div class="hr"></div>
+            
+            Image displayed below when bigger than 600px <br />
+            <div data-image-500="http://placekitten.com/g/900/385"></div>
+            
+            <div class="hr"></div>
+            
+            Image displayed below when bigger than 400px, different image when bigger than 700px <br />
+            <div data-image-400="http://placekitten.com/g/800/355"
+                 data-image-700="http://placekitten.com/g/700/300">
+            </div>
+            
+            <div class="hr"></div>
         </div>
         
         <div class="textContainer">

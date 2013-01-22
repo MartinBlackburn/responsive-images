@@ -23,3 +23,17 @@
 .textContainer {
     text-align: center;
 }
+
+img {
+	width: 100%;
+	height: auto;
+	margin-top: 5px;
+}
+
+.hr {
+	width: 50%;
+	height: 1px;
+	margin: 20px auto;
+	
+	background: #ccc;
+}
