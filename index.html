@@ -10,7 +10,6 @@
     
     <!-- JS Lib -->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
-    
 </head>
 <body>
     <div class="pageContainer">        
@@ -20,13 +19,13 @@
             
             <div class="hr"></div>
             
-            Image displayed below when bigger than 600px <br />
-            <div data-image-500="http://placekitten.com/g/900/385"></div>
+            Image displayed below when bigger than 500px <br />
+            <div class="replaceImage" data-image-500="http://placekitten.com/g/900/385"></div>
             
             <div class="hr"></div>
             
             Image displayed below when bigger than 400px, different image when bigger than 700px <br />
-            <div data-image-400="http://placekitten.com/g/800/355"
+            <div class="replaceImage" data-image-400="http://placekitten.com/g/800/355"
                  data-image-700="http://placekitten.com/g/700/300">
             </div>
             
@@ -36,6 +35,9 @@
         <div class="textContainer">
             <a href="https://github.com/MartinBlackburn/responsive-images">View the code on github</a>
         </div>
+        
+        <ul id="out">
+        </ul>
     </div>
     
     <!-- Responsive images -->
