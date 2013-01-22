@@ -14,7 +14,7 @@ The number after the data-image- is at what size (or bigger) the image should be
 So `data-image-500` will only load the image when the screen width is greater than 500px, while `data-image-800` will only load an 
 image when the screen is bigger than 800px wide.
 
-You can use multiple `data-image-<sizes>` and only the biggest image will be loaded.
+You can use multiple `data-image-` and only the biggest image will be loaded.
 
 ```html
 <div data-image-500="http://placekitten.com/g/500/500"  
