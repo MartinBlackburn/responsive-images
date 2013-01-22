@@ -14,7 +14,9 @@ screen width is greater than 500px, while `data-image-800` will only load an ima
 You can use multiple data-image-<size> and only the biggest image will be loaded.
 
 ```html
-<div data-image-500="http://placekitten.com/g/500/500" data-image-800="http://placekitten.com/g/800/800"></div>
+<div data-image-500="http://placekitten.com/g/500/500"  
+     data-image-800="http://placekitten.com/g/800/800">
+</div>
 ```
 
 [View it in action here](http://martinblackburn.github.com/responsive-images/)
