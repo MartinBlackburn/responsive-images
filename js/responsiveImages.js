@@ -4,8 +4,9 @@ ResponsiveImage = function()
     var pattern = new RegExp(/data-image-/);
             
     $(".replaceImage").each(function()
-    {
+    {        
         var newImageSRC = "";
+        var lastShowSize = 0;
         
         $.each(this.attributes, function(i, attribute)
         {
@@ -16,9 +17,11 @@ ResponsiveImage = function()
            {
                var minShowSize = name.split('-')[2];
                
-               if(width >= minShowSize)
+               if((width >= minShowSize) && (minShowSize > lastShowSize))
                {
                    newImageSRC = attribute.value;
+                   
+                   lastShowSize = minShowSize;
                }
            }
         });
