@@ -24,7 +24,7 @@ ResponsiveImage = function()
         });
         
         //load new image if needed
-        if(newImageSRC != "")
+        if(newImageSRC)
         {
             $(this).replaceWith("<img src='" + newImageSRC + "' />");
         }
